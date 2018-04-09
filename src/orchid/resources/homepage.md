@@ -1,6 +1,6 @@
 ---
 next: category1
-title: This is a title
+title: ' '
 ---
 This site was built as a demo by Annie Don. It uses Netlify's CMS and Netlify hosting, with Github hosting the repos. 
 
