@@ -29,7 +29,7 @@ project.version = '1'
 
 orchid {
     version = "${project.version}"
-    theme = "Editorial"
+    theme = "FutureImperfect"
 
     if (project.hasProperty('env') && project.property('env') == 'prod') {
         environment = 'production'
