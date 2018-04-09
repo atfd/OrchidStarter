@@ -4,6 +4,8 @@ title: ' '
 ---
 This site was built as a demo by Annie Don. It uses Netlify's CMS and Netlify hosting, with Github hosting the repos. 
 
+Feel free to browse through this blog to get a feel for what you can do with Orchid!
+
 :)
 
 Thanks for trying out Orchid! Feel free to take a look around, then head over to the 
