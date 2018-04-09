@@ -24,3 +24,15 @@ sharing a link on Twitter: <a
     data-text="Check out the site I just made with @OrchidSSG, and new Static Site Generator for Java and Kotlin!" 
     data-url="{{site.baseUrl}}" data-show-count="false">Tweet</a>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<script>
+  if (window.netlifyIdentity) {
+    window.netlifyIdentity.on("init", user => {
+      if (!user) {
+        window.netlifyIdentity.on("login", () => {
+          document.location.href = "/admin/";
+        });
+      }
+    });
+  }
+</script>
