@@ -1,4 +1,5 @@
 ---
+usePrettyUrl: true
 title: Examples - Programming
 ---
 
